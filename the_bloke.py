@@ -1,7 +1,7 @@
 from transformers import AutoTokenizer, pipeline, logging
 from auto_gptq import AutoGPTQForCausalLM, BaseQuantizeConfig
 
-model_name_or_path = "TheBloke/Llama-2-70B-chat-GPTQ"
+model_name_or_path = "/mnt/llama-2-service/models/TheBloke_Llama-2-70B-chat-GPTQ"
 model_basename = "model"
 
 use_triton = False
